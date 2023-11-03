@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
+.me {
+  display: flex;
+  flex-direction: row;
+
+  background-color: rgb(245, 238, 224);
+}
+.name {
+  align-items: flex-start;
+  width: 100%;
+  text-align: right;
+  margin: auto;
+  margin-right: 10px;
+  font-size: larger;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.job_title {
+  font-size: small;
+  font-family: "Courier New", Courier, monospace;
+  margin-right: 4px;
+}
+.pic_container {
+  align-self: flex-end;
+  width: 100%;
+}
+.pic {
+  width: 100px;
+}
+.all_about_me {
+}
+.about_me {
+  border-style: outset;
+  border-color: #d4cbb5;
+  margin-left: 150px;
+  margin-right: 150px;
+  text-align: center;
+  margin-top: 30px;
+}
