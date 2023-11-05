@@ -1,12 +1,19 @@
 * {
   box-sizing: border-box;
 }
+@font-face {
+  font-family: ;
+  src: url();
+}
 
 .me {
   display: flex;
   flex-direction: row;
 
   background-color: rgb(245, 238, 224);
+}
+.headlines {
+  font-family: "Brush Script MT", cursive;
 }
 .name {
   align-items: flex-start;
@@ -28,8 +35,6 @@
 }
 .pic {
   width: 100px;
-}
-.all_about_me {
 }
 .about_me {
   border-style: outset;
