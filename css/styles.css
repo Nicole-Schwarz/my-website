@@ -44,3 +44,13 @@
   text-align: center;
   margin-top: 30px;
 }
+.hometown {
+  margin-top: -15px;
+}
+.name {
+  text-align: left;
+  font-size: 1rem;
+}
+.name-box {
+  align-self: flex-end;
+}
